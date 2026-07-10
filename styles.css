@@ -15,34 +15,53 @@ Colors: #B18A69 (Tan), #D2D3CD (light grey), #FF0000 (red), #00000 (black), #787
 #nav {
     background-color: #B18A69;
     min-width: 100%;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    font-size: large;
-    color:black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+#nav-links {
+    flex: 1;
+    display: flex;
     justify-content: center;
-
+    gap: 20%;
 }
 
-a {
+#nav-links a {
     text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30pt;
 }
+
 
 #logo {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    justify-self: left;
-    border: temp; /* want a border potentionally because the background is white, appears floaty, might change with nav background color */
+    padding: 10px;
 }
 
 #hero {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
+    max-height: 500px;
+    min-width: 100%;
+    
 }
 
+#title {
+    text-align: center;
+    font-size: 25pt;
+    font-family: "Eagle Lake", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
 body {
-    margin: temp;
     
 }
 
@@ -52,19 +71,32 @@ body {
 }
 
 h1 {
-    font-family: Morris Roman (Need to grab and insert);
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
+
 h2 {
-    font-family: Morris Roman (Need to grab and insert);
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25pt;
 }
 
 p {
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
 }
 
 footer {
     font-family: 'Times New Roman', Times, serif;
+}
+
+#img2 {
+    max-height: 300px;
+    max-width: 300px;
+
 }
 
 
